@@ -3,14 +3,33 @@ console.log ("connected")
 
     var genres10 = {
         description: "This lens captures details...",
-        answer: "What is a macro lens",
+        rightAnswer:  "A. What is a macro lens?",
+        wrongAnswer1: "B. What is a telephoto lens?",
+        wrongAnswer2: "C. What is a prime lens?",
         points: 10
    
     };
+
      $('#five').click(function(){
-            $(this).html(genres10.description)
+            $(this).html(genres10.description).append($('<br>'),$('<br>'))
+
+    $('#five').append(genres10.rightAnswer, $('<br>'))
+    $('#five').append(genres10.wrongAnswer1, $('<br>'))
+    $('#five').append(genres10.wrongAnswer2, $('<br>'))
+
+    // $('#five').click(function(){
+    //     $(this).html(genres10.wrongAnswer1)
+    
+    // $('#five').click(function(){
+    //  $(this).html(genres10.wrongAnswer2)
 
 
+
+    
+
+           
+    
+    
 //   let timeClock = 30;
 //    let gameTimer = document.getElementById('#five')
 
@@ -24,7 +43,7 @@ console.log ("connected")
 //         }
 //        }
 
-   console.log('times going')
+   
 })
 
     

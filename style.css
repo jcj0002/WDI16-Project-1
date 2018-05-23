@@ -83,9 +83,15 @@ border: solid 5px orange;
     
     
     
+    
 
 }
-
+.child1{
+    font-size: 35px;
+}
+.child{
+    padding-bottom: 50px;
+}
 
 
 .bigbox{
@@ -96,3 +102,4 @@ border: solid 5px orange;
     margin-right: 70%;
     /* margin-top:10%; */
 }
+
