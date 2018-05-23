@@ -103,3 +103,25 @@ border: solid 5px orange;
     /* margin-top:10%; */
 }
 
+.score{
+    border: double 5px orange;
+    width: 200px;
+    margin-top: 60px;
+    color: white;
+    display: inline-flex;
+    /* justify-content: center; */
+    padding-left: 40px;
+
+}
+
+.totalDisplay{
+    height: 40px;
+    width: 50px;
+background-color: white;
+margin-top: 20px;
+margin-left: 15px;
+margin-bottom: 20px;
+font-size: 30pt;
+color: black;
+
+}
