@@ -17,10 +17,12 @@ $(document).ready(function () {
         $('#five').append('<button id="b">B</button>').append(genres10.wrongAnswer1, $('<br>'))
         $('#five').append('<button id="c">C</button>').append(genres10.wrongAnswer2, $('<br>'))
         $('.totalDisplay').text(total);
+        
         $('#a').one('click', function(){
+            
             //if correct answer
             if (genres10.rightAnswer = "CORRECT!") {
-
+                $("#five").css('background-color', 'darkgreen');
                 
             // }
                 // add points
@@ -38,7 +40,7 @@ $(document).ready(function () {
             $('#b').one('click', function(){
                 //if correct answer
                 if (genres10.wrongAnswer1 = "INCORRECT!") {
-    
+                    $("#five").css('background-color', 'darkred');
                     
                 // }
                     // add points
@@ -50,7 +52,7 @@ $(document).ready(function () {
             $('#c').one('click', function(){
                 //if correct answer
                 if (genres10.wrongAnswer2 = "INCORRECT!") {
-    
+                    $("#five").css('background-color', 'darkred');
                     
                 // }
                     // add points
