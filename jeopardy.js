@@ -200,7 +200,7 @@ $(document).ready(function () {
 
     })
     const lenses10 = {
-        description: "LENS FOR DETAILS",
+        description: "LENS FOR SMALL DETAILS",
         rightAnswer: "What is macro lens?",
         wrongAnswer1: "What is telephoto lens?",
         wrongAnswer2: "What is prime lens?",
