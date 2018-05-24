@@ -100,7 +100,7 @@ border: solid 5px orange;
 }
 .child{
     padding-bottom: 120px;
-    
+    color: yellow;
 }
 
 .child:hover {
