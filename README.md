@@ -11,10 +11,11 @@ Jeopardy Site:
 Trello Board: https://trello.com/b/OmfLIqpi/wdi16-project-1
 
 Wireframes:
-![alt text]https://imgur.com/YkQMsJN
+https://imgur.com/YkQMsJN
 
 Pseudocode: 
- 
+https://i.imgur.com/Y6pZ78K.jpg
+https://i.imgur.com/qCoPwT1.jpg
 
 Technologies:
 
