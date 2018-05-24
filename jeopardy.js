@@ -2,7 +2,6 @@ $(document).ready(function () {
     console.log("connected")
 
     let total = 0
-    
 
     const genres10 = {
         description: "SCENIC PHOTOGRAPHY",
@@ -34,7 +33,10 @@ $(document).ready(function () {
 
             //else
             //remove points
-
+            console.log(total + " points")
+            if (total >= 800) {
+                 alert("You won!!!")
+          }
         })
 
 
@@ -64,34 +66,7 @@ $(document).ready(function () {
 
 
     })
-    // $('#five').click(function(){
-    //     $(this).html(genres10.wrongAnswer1)
 
-    // $('#five').click(function(){
-    //  $(this).html(genres10.wrongAnswer2)
-
-
-
-
-
-
-
-
-    //   let timeClock = 30;
-    //    let gameTimer = document.getElementById('#five')
-
-    //    let timer = setInterval (countdown, 1000);
-    //    function countdown(){
-    //        if (timeClock === 0){
-    //            clearTimeout(timeClock);
-    //        } else{
-    //          gameTimer.innerHTML = timeClock +'seconds remaining';
-    //        timeClock--;
-    //         }
-    //        }
-
-
-    // })
 
 
 
@@ -152,7 +127,10 @@ $(document).ready(function () {
         })
 
 
-
+        console.log(total + " points")
+        if (total >= 800) {
+             alert("You won!!!")
+      }
 
 
     })
@@ -213,7 +191,10 @@ $(document).ready(function () {
 
         })
 
-
+        console.log(total + " points")
+        if (total >= 800) {
+             alert("You won!!!")
+      }
 
 
 
@@ -1235,18 +1216,18 @@ $(document).ready(function () {
             }
             console.log(total)
         })
-        
-       
-
+        console.log(total + " points")
+        if (total >= 800) {
+             alert("You won!!!")
+      }
     })
 
-     
-  
-
-
-
-
     
+
+
+
+
+
 
 
 
