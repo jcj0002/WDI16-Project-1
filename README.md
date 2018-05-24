@@ -20,6 +20,7 @@ Pseudocode:
 Technologies:
 
 1.jQuery
+
 2.W3 Schools
 
 
