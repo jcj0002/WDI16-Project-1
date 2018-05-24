@@ -68,7 +68,7 @@ border: solid 5px orange;
     
                     border: solid 5px orange;
                         display: inline-flex;
-                        
+               
                         
                     
                     }
@@ -101,6 +101,7 @@ border: solid 5px orange;
 .child{
     padding-bottom: 120px;
     color: yellow;
+    text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 20px darkblue;
 }
 
 .child:hover {
