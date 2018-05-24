@@ -14,8 +14,8 @@ Wireframes:
 https://imgur.com/YkQMsJN
 
 Pseudocode: 
-https://i.imgur.com/Y6pZ78K.jpg
-https://i.imgur.com/qCoPwT1.jpg
+1. https://i.imgur.com/Y6pZ78K.jpg
+2. https://i.imgur.com/qCoPwT1.jpg
 
 Technologies:
 
