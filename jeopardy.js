@@ -254,6 +254,10 @@ $(document).ready(function () {
             }
             console.log(total)
         })
+        console.log(total + " points")
+        if (total >= 800) {
+             alert("You won!!!")
+      }
     })
 
     const genres20 = {
@@ -313,7 +317,10 @@ $(document).ready(function () {
             console.log(total)
         })
 
-
+        console.log(total + " points")
+        if (total >= 800) {
+             alert("You won!!!")
+      }
     })
     const settings20 = {
         description: "AV",
