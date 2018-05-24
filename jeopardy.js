@@ -577,17 +577,57 @@ $(document).ready(function () {
         rightAnswer: "What is a maki time :)",
         wrongAnswer1: "ajsdkfjdskl",
         wrongAnswer2: "fjkfdjkfdfjk",
-        points: 10
+        points: 30
 
     };
 
     $('#fourteen').click(function () {
         $(this).html(settings30.description).append($('<br>'), $('<br>'))
 
-        $('#fourteen').append('<button>A</button>').append(settings30.rightAnswer, $('<br>'))
-        $('#fourteen').append('<button>B</button>').append(settings30.wrongAnswer1, $('<br>'))
-        $('#fourteen').append('<button>C</button>').append(settings30.wrongAnswer2, $('<br>'))
+        $('#fourteen').append('<button id="aa">A</button>').append(settings30.rightAnswer, $('<br>'))
+        $('#fourteen').append('<button id="bb">B</button>').append(settings30.wrongAnswer1, $('<br>'))
+        $('#fourteen').append('<button id="cc">C</button>').append(settings30.wrongAnswer2, $('<br>'))
+        $('.totalDisplay').text(total);
 
+        $('#aa').one('click', function () {
+
+            //if correct answer
+            if (settings30.rightAnswer = "CORRECT!") {
+                $("#fourteen").css('background-color', 'darkgreen');
+
+                // }
+                // add points
+                total += 30
+            }
+
+            console.log(total)
+
+            //else
+            //remove points
+
+        })
+        $('#bb').one('click', function () {
+            //if correct answer
+            if (settings30.wrongAnswer1 = "INCORRECT!") {
+                $("#fourteen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 30
+            }
+            console.log(total)
+        })
+        $('#cc').one('click', function () {
+            //if correct answer
+            if (settings30.wrongAnswer2 = "INCORRECT!") {
+                $("#fourteen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 30
+            }
+            console.log(total)
+        })
 
 
 
@@ -606,12 +646,52 @@ $(document).ready(function () {
     $('#fifteen').click(function () {
         $(this).html(equipment30.description).append($('<br>'), $('<br>'))
 
-        $('#fifteen').append('<button>A</button>').append(equipment30.rightAnswer, $('<br>'))
-        $('#fifteen').append('<button>B</button>').append(equipment30.wrongAnswer1, $('<br>'))
-        $('#fifteen').append('<button>C</button>').append(equipment30.wrongAnswer2, $('<br>'))
+        $('#fifteen').append('<button id= dd>A</button>').append(equipment30.rightAnswer, $('<br>'))
+        $('#fifteen').append('<button id= ee>B</button>').append(equipment30.wrongAnswer1, $('<br>'))
+        $('#fifteen').append('<button id= ff>C</button>').append(equipment30.wrongAnswer2, $('<br>'))
 
+        $('.totalDisplay').text(total);
 
+        $('#dd').one('click', function () {
 
+            //if correct answer
+            if (equipment30.rightAnswer = "CORRECT!") {
+                $("#fifteen").css('background-color', 'darkgreen');
+
+                // }
+                // add points
+                total += 30
+            }
+
+            console.log(total)
+
+            //else
+            //remove points
+
+        })
+    
+        $('#ee').one('click', function () {
+            //if correct answer
+            if (equipment30.wrongAnswer1 = "INCORRECT!") {
+                $("#fifteen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 30
+            }
+            console.log(total)
+        })
+        $('#ff').one('click', function () {
+            //if correct answer
+            if (equipment30.wrongAnswer2 = "INCORRECT!") {
+                $("#fifteen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 30
+            }
+            console.log(total)
+        })
 
     })
 
@@ -626,12 +706,52 @@ $(document).ready(function () {
     $('#sixteen').click(function () {
         $(this).html(lenses30.description).append($('<br>'), $('<br>'))
 
-        $('#sixteen').append('<button>A</button>').append(lenses30.rightAnswer, $('<br>'))
-        $('#sixteen').append('<button>B</button>').append(lenses30.wrongAnswer1, $('<br>'))
-        $('#sixteen').append('<button>C</button>').append(lenses30.wrongAnswer2, $('<br>'))
+        $('#sixteen').append('<button id= gg>A</button>').append(lenses30.rightAnswer, $('<br>'))
+        $('#sixteen').append('<button id= hh>B</button>').append(lenses30.wrongAnswer1, $('<br>'))
+        $('#sixteen').append('<button id= ii>C</button>').append(lenses30.wrongAnswer2, $('<br>'))
 
 
+        $('.totalDisplay').text(total);
 
+        $('#gg').one('click', function () {
+
+            //if correct answer
+            if (lenses30.rightAnswer = "CORRECT!") {
+                $("#sixteen").css('background-color', 'darkgreen');
+
+                // }
+                // add points
+                total += 30
+            }
+
+            console.log(total)
+
+            //else
+            //remove points
+
+        })
+        $('#hh').one('click', function () {
+            //if correct answer
+            if (lenses30.wrongAnswer1 = "INCORRECT!") {
+                $("#sixteen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 30
+            }
+            console.log(total)
+        })
+        $('#ii').one('click', function () {
+            //if correct answer
+            if (lenses30.wrongAnswer2 = "INCORRECT!") {
+                $("#sixteen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 30
+            }
+            console.log(total)
+        })
 
 
     })
@@ -640,17 +760,57 @@ $(document).ready(function () {
         rightAnswer: "What is a maki lens",
         wrongAnswer1: "ajsdkfjdskl",
         wrongAnswer2: "fjkfdjkfdfjk ::",
-        points: 10
+        points: 40
 
     };
     $('#seventeen').click(function () {
         $(this).html(genres40.description).append($('<br>'), $('<br>'))
 
-        $('#seventeen').append('<button>A</button>').append(genres40.rightAnswer, $('<br>'))
-        $('#seventeen').append('<button>B</button>').append(genres40.wrongAnswer1, $('<br>'))
-        $('#seventeen').append('<button>C</button>').append(genres40.wrongAnswer2, $('<br>'))
+        $('#seventeen').append('<button id= "gg">A</button>').append(genres40.rightAnswer, $('<br>'))
+        $('#seventeen').append('<button id= "hh">B</button>').append(genres40.wrongAnswer1, $('<br>'))
+        $('#seventeen').append('<button id= "ii">C</button>').append(genres40.wrongAnswer2, $('<br>'))
 
+        $('.totalDisplay').text(total);
 
+        $('#gg').one('click', function () {
+
+            //if correct answer
+            if (genres40.rightAnswer = "CORRECT!") {
+                $("#seventeen").css('background-color', 'darkgreen');
+
+                // }
+                // add points
+                total += 40
+            }
+
+            console.log(total)
+
+            //else
+            //remove points
+
+        })
+        $('#hh').one('click', function () {
+            //if correct answer
+            if (genres40.wrongAnswer1 = "INCORRECT!") {
+                $("#seventeen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 40
+            }
+            console.log(total)
+        })
+        $('#ii').one('click', function () {
+            //if correct answer
+            if (genres40.wrongAnswer2 = "INCORRECT!") {
+                $("seventeen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 40
+            }
+            console.log(total)
+        })
 
 
 
@@ -661,17 +821,57 @@ $(document).ready(function () {
         rightAnswer: "What is a maki :)",
         wrongAnswer1: "ajsdkfjdskl",
         wrongAnswer2: "fjkfdjkfdfjk",
-        points: 10
+        points: 40
 
     };
 
     $('#eighteen').click(function () {
         $(this).html(settings40.description).append($('<br>'), $('<br>'))
 
-        $('#eighteen').append('<button>A</button>').append(settings40.rightAnswer, $('<br>'))
-        $('#eighteen').append('<button>B</button>').append(settings40.wrongAnswer1, $('<br>'))
-        $('#eighteen').append('<button>C</button>').append(settings40.wrongAnswer2, $('<br>'))
+        $('#eighteen').append('<button id="mm">A</button>').append(settings40.rightAnswer, $('<br>'))
+        $('#eighteen').append('<button id="nn">B</button>').append(settings40.wrongAnswer1, $('<br>'))
+        $('#eighteen').append('<button id="oo">C</button>').append(settings40.wrongAnswer2, $('<br>'))
+        $('.totalDisplay').text(total);
 
+        $('#mm').one('click', function () {
+
+            //if correct answer
+            if (settings40.rightAnswer = "CORRECT!") {
+                $("#eighteen").css('background-color', 'darkgreen');
+
+                // }
+                // add points
+                total += 40
+            }
+
+            console.log(total)
+
+            //else
+            //remove points
+
+        })
+        $('#nn').one('click', function () {
+            //if correct answer
+            if (settings40.wrongAnswer1 = "INCORRECT!") {
+                $("#eighteen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 40
+            }
+            console.log(total)
+        })
+        $('#oo').one('click', function () {
+            //if correct answer
+            if (settings40.wrongAnswer2 = "INCORRECT!") {
+                $("#eighteen").css('background-color', 'darkred');
+
+                // }
+                // add points
+                total -= 40
+            }
+            console.log(total)
+        })
 
 
 
