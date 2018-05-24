@@ -636,7 +636,7 @@ $(document).ready(function () {
     })
     const equipment30 = {
         description: "LIGHTING SOURCE",
-        rightAnswer: "What is a speedlite?",
+        rightAnswer: "What is speedlite?",
         wrongAnswer1: "What is cell phone?",
         wrongAnswer2: "What is tripod?",
         points: 30
@@ -880,9 +880,9 @@ $(document).ready(function () {
     })
     const equipment40 = {
         description: "ONE-LEGGED CAMERA STAND",
-        rightAnswer: "What is a monopod?",
-        wrongAnswer1: "What is a tripod?",
-        wrongAnswer2: "What is a table?",
+        rightAnswer: "What is monopod?",
+        wrongAnswer1: "What is tripod?",
+        wrongAnswer2: "What is table?",
         points: 10
 
     };
@@ -940,9 +940,9 @@ $(document).ready(function () {
     })
     const lenses40 = {
         description: "50MM",
-        rightAnswer: "What is a prime lens?",
-        wrongAnswer1: "What is a macro lens?",
-        wrongAnswer2: "What is a kit lens?",
+        rightAnswer: "What is prime lens?",
+        wrongAnswer1: "What is macro lens?",
+        wrongAnswer2: "What is kit lens?",
         points: 10
 
     };
@@ -1179,10 +1179,10 @@ $(document).ready(function () {
 
     })
     const lenses50 = {
-        description: "This lens captures details",
-        rightAnswer: "What is a macro lens?",
+        description: "PRODUCE DISTORTED PHOTOS",
+        rightAnswer: "What is fisheye lens?",
         wrongAnswer1: "What is a telephoto lens?",
-        wrongAnswer2: "What is a prime lens?",
+        wrongAnswer2: "What is a macro lens?",
         points: 50
 
     };
