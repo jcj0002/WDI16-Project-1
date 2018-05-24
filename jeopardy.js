@@ -334,10 +334,10 @@ $(document).ready(function () {
 
     })
     const settings20 = {
-        description: "This camera is kasa",
-        rightAnswer: "What is a maki time :)",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "AV",
+        rightAnswer: "What is aperture priority?",
+        wrongAnswer1: "What is manual?",
+        wrongAnswer2: "What is auto?",
         points: 20
 
     };
@@ -398,10 +398,10 @@ $(document).ready(function () {
     })
 
     const equipment20 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "CAMERA STAND",
+        rightAnswer: "What is tripod?",
+        wrongAnswer1: "What is stabilizer?",
+        wrongAnswer2: "What is crane?",
         points: 20
 
     };
@@ -456,10 +456,10 @@ $(document).ready(function () {
 
     })
     const lenses20 = {
-        description: "This camera is",
-        rightAnswer: "What is a makiiu lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "TELEPHOTO LENS",
+        rightAnswer: "What is 70-200MM?",
+        wrongAnswer1: "What is 35MM?",
+        wrongAnswer2: "What is 100MM?",
         points: 20
 
     };
@@ -512,10 +512,10 @@ $(document).ready(function () {
         })
     })
     const genres30 = {
-        description: "This camera is",
-        rightAnswer: "What is a making lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "ANIMAL SUBJECT PHOTOGRAPHY",
+        rightAnswer: "What is wildlife photography?",
+        wrongAnswer1: "What is portrait photography?",
+        wrongAnswer2: "What is fashion photography",
         points: 30
 
     };
@@ -573,10 +573,10 @@ $(document).ready(function () {
 
     })
     const settings30 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki time :)",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "TV MODE",
+        rightAnswer: "What is time value?",
+        wrongAnswer1: "What is through viewfinder? ",
+        wrongAnswer2: "What is television?",
         points: 30
 
     };
@@ -635,10 +635,10 @@ $(document).ready(function () {
 
     })
     const equipment30 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkffunny",
+        description: "LIGHTING SOURCE",
+        rightAnswer: "What is a speedlite?",
+        wrongAnswer1: "What is cell phone?",
+        wrongAnswer2: "What is tripod?",
         points: 30
 
     };
@@ -696,10 +696,10 @@ $(document).ready(function () {
     })
 
     const lenses30 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "WIDE ANGLE LENS",
+        rightAnswer: "What is 35mm?",
+        wrongAnswer1: "What is 85mm?",
+        wrongAnswer2: "What is 100mm?",
         points: 30
 
     };
@@ -756,10 +756,10 @@ $(document).ready(function () {
 
     })
     const genres40 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk ::",
+        description: "PHOTOGRAPHY FOR EVENTS",
+        rightAnswer: "What is event photography?",
+        wrongAnswer1: "What is portrait photography?",
+        wrongAnswer2: "What is landscape photography?",
         points: 40
 
     };
@@ -817,10 +817,10 @@ $(document).ready(function () {
 
     })
     const settings40 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki :)",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "HIGH SPEED CONTINUOUS",
+        rightAnswer: "What is shooting mode?",
+        wrongAnswer1: "What is fun?",
+        wrongAnswer2: "What is metering?",
         points: 40
 
     };
@@ -879,10 +879,10 @@ $(document).ready(function () {
 
     })
     const equipment40 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "ONE-LEGGED CAMERA STAND",
+        rightAnswer: "What is a monopod?",
+        wrongAnswer1: "What is a tripod?",
+        wrongAnswer2: "What is a table?",
         points: 10
 
     };
@@ -939,10 +939,10 @@ $(document).ready(function () {
 
     })
     const lenses40 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "50MM",
+        rightAnswer: "What is a prime lens?",
+        wrongAnswer1: "What is a macro lens?",
+        wrongAnswer2: "What is a kit lens?",
         points: 10
 
     };
@@ -999,10 +999,10 @@ $(document).ready(function () {
     })
 
     const genres50 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "BRIDE AND GROOM PHOTOGRAPHY",
+        rightAnswer: "What is wedding photography?",
+        wrongAnswer1: "What is graduation photography?",
+        wrongAnswer2: "What is nature photograpphy?",
         points: 50
 
     };
@@ -1058,10 +1058,10 @@ $(document).ready(function () {
 
     })
     const settings50 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "COLOR TEMPERATURE",
+        rightAnswer: "What is white balance?",
+        wrongAnswer1: "What is pink balance?",
+        wrongAnswer2: "What is yellow balance?",
         points: 50
 
     };
@@ -1119,10 +1119,10 @@ $(document).ready(function () {
 
     })
     const equipment50 = {
-        description: "This camera is",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "DIFFUSER LIGHT",
+        rightAnswer: "What is diffuser? ",
+        wrongAnswer1: "What is speedlite?",
+        wrongAnswer2: "What is tripod?",
         points: 50
 
     };
