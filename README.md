@@ -11,13 +11,15 @@ Jeopardy Site:
 Trello Board: https://trello.com/b/OmfLIqpi/wdi16-project-1
 
 Wireframes:
- 
+![alt text]https://imgur.com/YkQMsJN
 
 Pseudocode: 
  
 
 Technologies:
 
-"	jQuery
+jQuery
+
+
 
 
