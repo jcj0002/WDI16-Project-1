@@ -19,7 +19,8 @@ Pseudocode:
 
 Technologies:
 
-jQuery
+1.jQuery
+2.W3 Schools
 
 
 
