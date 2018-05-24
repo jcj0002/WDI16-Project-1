@@ -441,7 +441,7 @@ $(document).ready(function () {
                 total -= 20
             }
             console.log(total)
-         })
+        })
         $('#u').one('click', function () {
             //if correct answer
             if (equipment20.wrongAnswer2 = "INCORRECT!") {
@@ -520,7 +520,7 @@ $(document).ready(function () {
 
     };
 
-    
+
     $('#thirteen').click(function () {
         $(this).html(genres30.description).append($('<br>'), $('<br>'))
 
@@ -669,7 +669,7 @@ $(document).ready(function () {
             //remove points
 
         })
-    
+
         $('#ee').one('click', function () {
             //if correct answer
             if (equipment30.wrongAnswer1 = "INCORRECT!") {
@@ -1212,6 +1212,10 @@ $(document).ready(function () {
             //remove points
 
         })
+        console.log(total + " points")
+        if (total >= 800) {
+            alert("You won!!!")
+        }
         $('#hhh').one('click', function () {
             //if correct answer
             if (lenses50.wrongAnswer1 = "INCORRECT!") {
@@ -1223,6 +1227,11 @@ $(document).ready(function () {
             }
             console.log(total)
         })
+        console.log(total + " points")
+        if (total >= 800) {
+            alert("You won!!!")
+        }
+
         $('#iii').one('click', function () {
             //if correct answer
             if (lenses50.wrongAnswer2 = "INCORRECT!") {
@@ -1234,8 +1243,13 @@ $(document).ready(function () {
             }
             console.log(total)
         })
+        console.log(total + " points")
+        if (total >= 800) {
+            alert("You won!!!")
+        }
 
     })
+
 
 
 

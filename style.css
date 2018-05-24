@@ -103,6 +103,9 @@ border: solid 5px orange;
     
 }
 
+.child:hover {
+    cursor: pointer;
+}
 
 .bigbox{
     
