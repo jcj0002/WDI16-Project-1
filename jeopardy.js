@@ -157,9 +157,9 @@ $(document).ready(function () {
     })
     const equipment10 = {
         description: "CASE FOR CAMERA",
-        rightAnswer: "What is a maki lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        rightAnswer: "What is camera bag?",
+        wrongAnswer1: "What is grocery bag?",
+        wrongAnswer2: "What is coin pouch?",
         points: 10
 
     };
@@ -218,10 +218,10 @@ $(document).ready(function () {
 
     })
     const lenses10 = {
-        description: "This camera is",
-        rightAnswer: "What is a makiiu lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "LENS FOR DETAILS",
+        rightAnswer: "What is macro lens?",
+        wrongAnswer1: "What is telephoto lens?",
+        wrongAnswer2: "What is prime lens?",
         points: 10
 
     };
@@ -275,10 +275,10 @@ $(document).ready(function () {
     })
 
     const genres20 = {
-        description: "This camera is",
-        rightAnswer: "What is a making lens",
-        wrongAnswer1: "ajsdkfjdskl",
-        wrongAnswer2: "fjkfdjkfdfjk",
+        description: "SINGLE OR SMALL GROUP PHOTOGRAPHY",
+        rightAnswer: "What is portrait photography?",
+        wrongAnswer1: "What is event photography?",
+        wrongAnswer2: "What is landscape photography?",
         points: 20
 
     };
