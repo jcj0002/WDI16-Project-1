@@ -515,7 +515,7 @@ $(document).ready(function () {
         description: "ANIMAL SUBJECT PHOTOGRAPHY",
         rightAnswer: "What is wildlife photography?",
         wrongAnswer1: "What is portrait photography?",
-        wrongAnswer2: "What is fashion photography",
+        wrongAnswer2: "What is fashion photography?",
         points: 30
 
     };
@@ -1223,7 +1223,7 @@ $(document).ready(function () {
             }
             console.log(total)
         })
-        $('iii').one('click', function () {
+        $('#iii').one('click', function () {
             //if correct answer
             if (lenses50.wrongAnswer2 = "INCORRECT!") {
                 $("#twentyfour").css('background-color', 'darkred');
