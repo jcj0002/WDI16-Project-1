@@ -8,13 +8,17 @@ header{
     
     text-align: center;
     padding: 20px;
-    font-size: 40px;
-    color: white;
-    
+    font-size: 65px;
+    color: orange;
+    text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 20px darkblue;
 }
 
 body{
-    background-color: rgb(7, 7, 71)
+   background-color: rgb(7, 7, 71);
+   border: solid 15px orange;
+   padding: 10px;
+   margin: -5px;
+   
 }
 .parent1{
     
@@ -71,13 +75,14 @@ border: solid 5px orange;
     
 
 
+
  
 .child, .child1 {
     border: solid 5px orange;
     width: 250px;
     height: 100px;
     background-color: navy;
-    color: white;
+    color:orange;
     text-align: center;
     padding-top:65px;
     
@@ -87,10 +92,14 @@ border: solid 5px orange;
 
 }
 .child1{
+    color: yellow;
+    text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 20px darkblue;
     font-size: 35px;
+    
 }
 .child{
     padding-bottom: 120px;
+    
 }
 
 
@@ -100,26 +109,32 @@ border: solid 5px orange;
     height: 100%;
     font-size: 16pt; 
     margin-right: 70%;
+    
     /* margin-top:10%; */
 }
 
 .score{
     border: double 5px orange;
-    width: 200px;
+    border-radius: 25px;
+    width: 300px;
     margin-top: 60px;
-    color: white;
+    color: orange;
     display: inline-flex;
     /* justify-content: center; */
     padding-left: 40px;
-
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 20px darkblue;
 }
 
+
 .totalDisplay{
-    height: 40px;
-    width: 50px;
+    height: 50px;
+    width: 250px;
 background-color: white;
+border: double 3px black;
 margin-top: 20px;
-margin-left: 15px;
+margin-left: 30px;
+margin-right:40px;
 margin-bottom: 20px;
 font-size: 30pt;
 color: black;
